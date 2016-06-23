@@ -1,9 +1,10 @@
 # Tech-Guide
+![](images/getlinks-tech-stack.png?raw=true)
 #### Fundamental skills
 - Source code control - (**Git** and **Git Flow**)
 
 ---
-## ![Frontend](images/frontend.png?raw=true) Frontend developer
+## ![](images/frontend.png?raw=true) Frontend developer ([GetLinks Candidate Testing](frontend/))
 - Work with web designers to create amazing, immersive interactive experiences.
 - Optimize web applications to maximize speed and scalability.
 - Create fast, easy-to-use applications, and develop prototypes quickly.
@@ -18,7 +19,7 @@
 - Frameworks like **Bootstrap** (http://getbootstrap.com/)
 - **React** (a Javascript library for building user interface https://facebook.github.io/react/)
 - **EJS** a template library in Node.js
-- Website performance optimization (https://developers.google.com/speed/pagespeed/)
+- Website performance optimization (https://developers.google.com/speed/pagespeed/, https://varvy.com/)
 
 ## ![](images/backend.png?raw=true) Backend developer
 - Responsibility on database and server-side applications.

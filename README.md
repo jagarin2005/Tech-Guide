@@ -1,9 +1,11 @@
 # Tech-Guide
 ![](images/getlinks-tech-stack.png?raw=true)
 Please read about GetLinks tech stack here (Thai) [Startup Tech Stack ที่ GetLinks](https://medium.com/@pichayas/startup-tech-stack-ที่-getlinks-c809a90f2eb5)
+
 #### Fundamental skills
 - Source code control - (**Git** and **Git Flow**)
 - Node.js ([Node Skill Testing](node/))
+
 ---
 ## ![](images/frontend.png?raw=true) Frontend developer ([Frontend Candidate Testing](frontend/))
 - Work with web designers to create amazing, immersive interactive experiences.

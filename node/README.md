@@ -7,7 +7,7 @@ Please push your code to your Github and send the link to pichaya@getlinks.co
 - Create a form with one textfield and a button
 - When click the button show the followers of the Github id
 
-![](images/node-skill-test.png)
+<img src="images/node-skill-test.png" />
 
 *hint: https://api.github.com/users/pichaya/followers*
 

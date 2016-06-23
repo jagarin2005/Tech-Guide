@@ -6,7 +6,6 @@ Please push your code to your Github and send the link to pichaya@getlinks.co
 ![](images/frontend-test.png?raw=true)
 - You can use Lorem text and placeholder images anywhere you want
 - You can modify the design if you have a better idea
-
-## 2. Make React reusable components from the web page
+- (Optional) Make React reusable components from the web page
 
 ---

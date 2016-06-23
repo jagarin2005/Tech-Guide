@@ -1,5 +1,6 @@
 # Tech-Guide
 ![](images/getlinks-tech-stack.png?raw=true)
+Please read about GetLinks tech stack here (Thai) [Startup Tech Stack ที่ GetLinks](https://medium.com/@pichayas/startup-tech-stack-ที่-getlinks-c809a90f2eb5)
 #### Fundamental skills
 - Source code control - (**Git** and **Git Flow**)
 

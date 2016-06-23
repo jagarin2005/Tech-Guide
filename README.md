@@ -2,7 +2,8 @@
 #### Fundamental skills
 - Source code control - (**Git** and **Git Flow**)
 
-## - Frontend developer
+---
+## ![Frontend](images/frontend.png?raw=true) Frontend developer
 - Work with web designers to create amazing, immersive interactive experiences.
 - Optimize web applications to maximize speed and scalability.
 - Create fast, easy-to-use applications, and develop prototypes quickly.
@@ -19,7 +20,7 @@
 - **EJS** a template library in Node.js
 - Website performance optimization (https://developers.google.com/speed/pagespeed/)
 
-## - Backend developer
+## ![](images/backend.png?raw=true) Backend developer
 - Responsibility on database and server-side applications.
 - Develop API to everything the Frontend developer create
 - Create automate script to manipulate data
@@ -36,5 +37,7 @@
 - CDN
 - Continuous Integration (**Jenkins**)
 
-## - Full Stack Web Developer
+## ![](images/fullstack.png?raw=true) Full Stack Web Developer
 Working on both the server side and client side professionally
+
+---

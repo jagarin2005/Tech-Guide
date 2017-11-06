@@ -1,0 +1,106 @@
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header {
+    background: #fff;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav a{
+    padding: 15px 15px 15px 15px;
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: #364236;
+    display: inline-block;
+    /* border: 1px solid #000; */
+    border-radius: 25px;
+    transition: all .15s ease-in-out;
+}
+
+nav a:hover{
+    color: #fff;
+    text-decoration: none;
+    background: rgba(128, 128, 128, 0.7); 
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto 10px auto;
+}
+
+main {
+    padding-left: 0;
+    padding-right: 0; 
+}
+
+section.text-title {
+    background: #dadfe4;
+    padding: 60px 30px 60px 30px;
+    margin: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.16) inset, 0 -5px 10px rgba(0,0,0,0.16) inset;
+}
+
+section.text-title article h1 {
+    padding: 30px 0 30px 0;
+}
+
+section.content {
+    background: #fff;
+    margin: 30px auto 30px auto;
+}
+
+figure.thumbnail {
+    box-shadow: 0 2px 3px rgba(0,0,0, 0.22), 0 5px 8px rgba(0,0,0, 0.16);
+    transition: box-shadow 0.35s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+figure.thumbnail:hover {
+    box-shadow: 0 5px 12px rgba(0,0,0, 0.18), 0 16px 36px rgba(0,0,0,0.12);
+}
+
+footer {
+    background: #dadfe4;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.16) inset, 0 -5px 10px rgba(0,0,0,0.16) inset;
+}
+
+i.fa {
+    padding: 3px;
+}
+
+.fa-google-plus-square {
+    color: rgba(211,72,54,1);
+    transition: color 0.35s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.fa-google-plus-square:hover {
+    color: rgba(195,56,38,1);
+}
+
+.fa-facebook-square {
+    color: rgba(59,89,152,1);
+    transition: color 0.35s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.fa-facebook-square:hover {
+    color: rgba(44,74,137,1);
+}
+
+.fa-twitter-square {
+    color: rgba(0,182,237,1);
+    transition: color 0.35s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.fa-twitter-square:hover {
+    color: rgba(0,170,225,1);
+}

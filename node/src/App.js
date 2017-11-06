@@ -1,23 +1,31 @@
 import React, { Component } from 'react';
 import InputForm from './components/InputForm';
 import FollowersList from './components/FollowersList';
+import { fetchFollowers } from './api/';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state={
-      userName: ""
+      followers: []
     }
+    this.handleFormSubmit = this.handleFormSubmit.bind(this);
+  }
+
+  handleFormSubmit(user) {
+    fetchFollowers(user)
+    .then( follower => {
+      this.setState({ followers: follower });
+    })
   }
 
   render() {
+    let followers = this.state.followers;
     return (
       <div className="App">
         <div className="container">
-          <form>
-            <InputForm />
-            <FollowersList userName={this.state.userName} />
-          </form>
+          <InputForm onFormSubmit={ this.handleFormSubmit } />
+          <FollowersList followers={ followers } />
         </div>
       </div>
     );
